@@ -2,7 +2,7 @@ class Solution {
     public List<String> restoreIpAddresses(String s) {
         List<String> ans = new ArrayList<>();
         helper(0, 0, "", s, ans);
-        return ans;
+        
     }
     void helper(int i, int par, String ans, String s, List<String> res){
         if(i==s.length() && par==4){
