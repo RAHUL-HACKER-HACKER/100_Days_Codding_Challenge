@@ -24,7 +24,7 @@ class Solution {
             return false;
         }
         int val = Integer.parseInt(s);
-        
+        return val<=255;
     }
 
 }
