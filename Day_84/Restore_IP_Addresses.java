@@ -19,7 +19,7 @@ class Solution {
         }
     }
 
-  {
+    boolean isValid(String s){
         if(s.charAt(0) == '0'){
             return false;
         }
