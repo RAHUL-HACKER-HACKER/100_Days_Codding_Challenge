@@ -23,7 +23,7 @@ class Solution {
         if(s.charAt(0) == '0'){
             return false;
         }
-        
+        int val = Integer.parseInt(s);
         return val<=255;
     }
 
