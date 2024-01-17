@@ -1,7 +1,7 @@
 
 class Solution {
     public ListNode partition(ListNode head, int x) {
-        ListNode first = new ListNode(0);
+       
         ListNode sec = new ListNode(0);
 
         ListNode dS = first;
