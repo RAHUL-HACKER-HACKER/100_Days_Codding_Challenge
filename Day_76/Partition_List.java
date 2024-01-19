@@ -5,7 +5,7 @@ class Solution {
         ListNode sec = new ListNode(0);
 
         ListNode dS = first;
-        ListNode dL = sec;
+        
 
         while(head != null){
             if(head.val < x){
