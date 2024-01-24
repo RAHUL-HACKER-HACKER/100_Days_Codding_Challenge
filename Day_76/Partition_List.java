@@ -18,6 +18,6 @@ class Solution {
             head = head.next;
         }
         dS.next = sec.next;
-       
+        return first.next;
     }
 }
