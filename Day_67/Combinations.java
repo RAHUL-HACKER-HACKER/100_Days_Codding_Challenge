@@ -4,7 +4,7 @@ class Solution {
     
     public List<List<Integer>> combine(int n, int k) {
         this.n = n;
-        
+        this.k = k;
         List<List<Integer>> ans = new ArrayList<>();
         backtrack(new ArrayList<>(), 1, ans);
         return ans;
