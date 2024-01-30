@@ -23,7 +23,7 @@ class Solution {
         for (int num = firstNum; num <= firstNum + available; num++) {
             curr.add(num);
             backtrack(curr, num + 1, ans);
-            
+            curr.remove(curr.size() - 1);
         }
 
         return;
