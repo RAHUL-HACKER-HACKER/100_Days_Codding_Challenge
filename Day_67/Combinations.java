@@ -18,7 +18,7 @@ class Solution {
         
         int need = k - curr.size();
         int remain = n - firstNum + 1;
-        int available = remain - need;
+        
         
         for (int num = firstNum; num <= firstNum + available; num++) {
             curr.add(num);
